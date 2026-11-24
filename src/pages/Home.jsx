@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Testimonials from "../components/Testimonials";
 import VideoPlayer from "../components/VideoPlayer";
+import YvoneCortesProfilePic from "../assets/profilePics//yvone-cortes-pic.png";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <img
                 className="object-cover rounded-full w-48 h-48 md:w-64 md:h-64"
-                src="/profilePics/yvone-cortes-pic.png"
+                src={YvoneCortesProfilePic}
                 alt="Yvone Cortes"
               />
             </div>

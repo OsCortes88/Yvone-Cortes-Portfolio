@@ -1,16 +1,19 @@
 import TestimonialCard from "./TestimonialCard";
+import JasmynRamirezProfilePic from "../assets/profilePics/jasmyn-ramirez.png";
+import JasmineBhardwajProfilePic from "../assets/profilePics/jasmine-bhardwaj.png";
+import ElevoProfilePic from "../assets/profilePics/elevo.png";
 
 const endorsers = [
   {
     name: "Jasmyn Ramirez",
-    profilePic: "/profilePics/jasmyn-ramirez.png",
+    profilePic: JasmynRamirezProfilePic,
     positon: "Senior Video Marketing Associate at DigitalNEST",
     review:
       "I had the pleasure of working with Yvone as the editor on my senior thesis film, and I can confidently say that her contributions plays a major role in the film’s success. Her strong storytelling instincts, attention to detail, and technical expertise brought the project together in ways that elevated it’s entire premise.\n​I’m incredibly grateful for the time, talent, and dedication Yvone brought to the project. I would highly recommend her to any production team looking for a skilled, thoughtful, and dependable editor.",
   },
   {
     name: "Jasmine Bhardwaj",
-    profilePic: "/profilePics/jasmine-bhardwaj.png",
+    profilePic: JasmineBhardwajProfilePic,
     positon:
       "Marketing and Administrative Director at the Salinas Valley Chamber of Commerce",
     review:
@@ -18,7 +21,7 @@ const endorsers = [
   },
   {
     name: "Ulices Rodriguez",
-    profilePic: "/profilePics/elevo.png",
+    profilePic: ElevoProfilePic,
     positon: "Operations Manager for Elevo",
     review:
       "Coach Yvone Cortes has been a key part of our Salinas City Team since last school year, primarily serving at Mission Park Elementary. From day one, she's brought confidence, care, energy, and organization to everything she does. What truley sets her apart is her consistency- whether it's her professionalism, punctuality, or her intentional approach with students. If you've ever sat in on one of her academice support blocks, you've seen firsthand how impactful she is.\nCoach Yvone balances assertiveness with approachability, creating a space where students feel supported and engaged. She deserves all the recognition for the incredible work she's doing to uplift our community. A huge shoutout to Coach Yvone! I'm excited to see all the greate things ahead for her!",

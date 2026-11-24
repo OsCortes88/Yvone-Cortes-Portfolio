@@ -12,7 +12,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:scale-115"
               >
-                <img src="/icons/youtube.svg" className="w-12" />
+                <img src="icons/youtube.svg" className="w-12" />
               </a>
               <a
                 href="https://www.linkedin.com/in/yvone-cortes/"
@@ -20,7 +20,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:scale-115"
               >
-                <img src="/icons/linkedin.svg" className="w-12" />
+                <img src="icons/linkedin.svg" className="w-12" />
               </a>
             </div>
           </div>
