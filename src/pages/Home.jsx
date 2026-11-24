@@ -7,7 +7,12 @@ import YvoneCortesProfilePic from "../assets/profilePics//yvone-cortes-pic.png";
 export default function Home() {
   return (
     <>
-      <header className="flex items-center justify-center bg-[url('banner.png')] bg-cover bg-center min-h-[35vh] w-full">
+      <header
+        style={{
+          backgroundImage: `url(${import.meta.env.BASE_URL}banner.png)`,
+        }}
+        className="flex items-center justify-center bg-cover bg-center min-h-[35vh] w-full"
+      >
         <div className="flex flex-col p-5 mx-10 max-w-2xl rounded-2xl">
           <div className="flex flex-col items-center justify-center text-white">
             <h1 className="text-center">Yvone Cortes</h1>
