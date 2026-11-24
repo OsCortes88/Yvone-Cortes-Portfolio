@@ -63,7 +63,10 @@ export default function Home() {
 
         <section id="myWork" className="flex flex-col py-8 md:p-8 gap-5 w-full">
           <h1 className="text-center">My Work</h1>
-          <div className="flex flex-col md:flex-row justify-evenly items-center gap-4 md:gap-0">
+          <div
+            hidden="true"
+            className="flex flex-col md:flex-row justify-evenly items-center gap-4 md:gap-0"
+          >
             <Link
               to="/projects"
               target="_blank"

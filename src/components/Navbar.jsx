@@ -3,9 +3,9 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const navItems = {
   "/": "Home",
-  "/projects": "Projects",
-  "/filmography": "Filmography",
-  "/about": "About",
+  // "/projects": "Projects",
+  // "/filmography": "Filmography",
+  // "/about": "About",
 };
 
 export default function Navbar() {
