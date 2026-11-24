@@ -29,7 +29,7 @@ export default function Navbar() {
         <NavLink to="/" onClick={() => setIsOpen(false)}>
           <img
             className="object-cover h-8 md:h-10"
-            src="/icons/YCVisuals.png"
+            src="icons/YCVisuals.png"
             alt="Logo"
           />
         </NavLink>
